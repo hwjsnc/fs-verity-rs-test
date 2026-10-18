@@ -1,0 +1,10 @@
+[package]
+name = "fs-verity-test"
+version = "0.1.0"
+edition = "2024"
+
+[patch.crates-io]
+fs-verity = { git = "https://github.com/hwjsnc/fs-verity-rs", rev = "5f279817da76680415a17648b73422855c5c4b94" }
+
+[dependencies]
+fs-verity = "0.2.0"
